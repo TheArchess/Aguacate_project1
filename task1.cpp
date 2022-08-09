@@ -10,7 +10,7 @@ void task1(){
     static Task1States task1State = Task1States::INIT;
     static uint32_t lasTime;
     static constexpr uint32_t INTERVAL = 100;
-    static constexpr uint8_t ledRed = 14;
+    static constexpr uint8_t ledRed = 25;
     static bool ledStatus = false;
 
     switch(task1State){
